@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21144CD4232145B20062D494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21144CD0232145B20062D494 /* Main.storyboard */; };
+		21144CD6232145B20062D494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21144CD2232145B20062D494 /* main.m */; };
+		21144CDC232145CA0062D494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21144CD8232145CA0062D494 /* AppDelegate.m */; };
+		21144CDD232145CA0062D494 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21144CD9232145CA0062D494 /* ViewController.mm */; };
+		217B984F23201ED5002297DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217B984E23201ED5002297DB /* AVFoundation.framework */; };
+		217B985123201EDB002297DB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217B985023201EDB002297DB /* CoreMedia.framework */; };
+		217B985323201EDF002297DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217B985223201EDF002297DB /* AudioToolbox.framework */; };
+		217B985523201EE7002297DB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217B985423201EE7002297DB /* MediaPlayer.framework */; };
+		217B985C23201F47002297DB /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 217B985B23201F47002297DB /* libSuperpoweredAudioIOS.a */; };
+		217B986023201F69002297DB /* SuperpoweredIOSAudioIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 217B985E23201F69002297DB /* SuperpoweredIOSAudioIO.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04434762242E43AE00B4B0E6 /* SuperpoweredAdvancedAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SuperpoweredAdvancedAudioPlayer.h; path = ../../Superpowered/SuperpoweredAdvancedAudioPlayer.h; sourceTree = "<group>"; };
+		1B3F0B891B15A04100F50B00 /* Progresive Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progresive Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21144CD0232145B20062D494 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = SuperpoweredHLSExample/etc/Main.storyboard; sourceTree = "<group>"; };
+		21144CD2232145B20062D494 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SuperpoweredHLSExample/etc/main.m; sourceTree = "<group>"; };
+		21144CD3232145B20062D494 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SuperpoweredHLSExample/etc/Info.plist; sourceTree = "<group>"; };
+		21144CD8232145CA0062D494 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SuperpoweredHLSExample/AppDelegate.m; sourceTree = "<group>"; };
+		21144CD9232145CA0062D494 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ViewController.mm; path = SuperpoweredHLSExample/ViewController.mm; sourceTree = "<group>"; };
+		21144CDA232145CA0062D494 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SuperpoweredHLSExample/AppDelegate.h; sourceTree = "<group>"; };
+		21144CDB232145CA0062D494 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = SuperpoweredHLSExample/ViewController.h; sourceTree = "<group>"; };
+		217B984E23201ED5002297DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		217B985023201EDB002297DB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		217B985223201EDF002297DB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		217B985423201EE7002297DB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		217B985B23201F47002297DB /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSuperpoweredAudioIOS.a; path = ../../Superpowered/libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
+		217B985E23201F69002297DB /* SuperpoweredIOSAudioIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SuperpoweredIOSAudioIO.mm; path = ../../Superpowered/OpenSource/SuperpoweredIOSAudioIO.mm; sourceTree = "<group>"; };
+		217B985F23201F69002297DB /* SuperpoweredIOSAudioIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperpoweredIOSAudioIO.h; path = ../../Superpowered/OpenSource/SuperpoweredIOSAudioIO.h; sourceTree = "<group>"; };
+		217B986123201F86002297DB /* Superpowered.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Superpowered.h; path = ../../Superpowered/Superpowered.h; sourceTree = "<group>"; };
+		217B986223201F93002297DB /* SuperpoweredSimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SuperpoweredSimple.h; path = ../../Superpowered/SuperpoweredSimple.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B3F0B861B15A04100F50B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217B985C23201F47002297DB /* libSuperpoweredAudioIOS.a in Frameworks */,
+				217B985523201EE7002297DB /* MediaPlayer.framework in Frameworks */,
+				217B985323201EDF002297DB /* AudioToolbox.framework in Frameworks */,
+				217B985123201EDB002297DB /* CoreMedia.framework in Frameworks */,
+				217B984F23201ED5002297DB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B3F0B801B15A04100F50B00 = {
+			isa = PBXGroup;
+			children = (
+				217B985A23201F3A002297DB /* Superpowered */,
+				21144CDA232145CA0062D494 /* AppDelegate.h */,
+				21144CD8232145CA0062D494 /* AppDelegate.m */,
+				21144CDB232145CA0062D494 /* ViewController.h */,
+				21144CD9232145CA0062D494 /* ViewController.mm */,
+				21144CCF2321459F0062D494 /* Supporting Files */,
+				217B984D23201EBD002297DB /* Frameworks */,
+				1B3F0B8A1B15A04100F50B00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B3F0B8A1B15A04100F50B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B3F0B891B15A04100F50B00 /* Progresive Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21144CCF2321459F0062D494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21144CD3232145B20062D494 /* Info.plist */,
+				21144CD2232145B20062D494 /* main.m */,
+				21144CD0232145B20062D494 /* Main.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		217B984D23201EBD002297DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				217B985423201EE7002297DB /* MediaPlayer.framework */,
+				217B985223201EDF002297DB /* AudioToolbox.framework */,
+				217B985023201EDB002297DB /* CoreMedia.framework */,
+				217B984E23201ED5002297DB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		217B985A23201F3A002297DB /* Superpowered */ = {
+			isa = PBXGroup;
+			children = (
+				217B985B23201F47002297DB /* libSuperpoweredAudioIOS.a */,
+				217B985F23201F69002297DB /* SuperpoweredIOSAudioIO.h */,
+				04434762242E43AE00B4B0E6 /* SuperpoweredAdvancedAudioPlayer.h */,
+				217B985E23201F69002297DB /* SuperpoweredIOSAudioIO.mm */,
+				217B986123201F86002297DB /* Superpowered.h */,
+				217B986223201F93002297DB /* SuperpoweredSimple.h */,
+			);
+			name = Superpowered;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B3F0B881B15A04100F50B00 /* SuperpoweredHLSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3F0BAC1B15A04100F50B00 /* Build configuration list for PBXNativeTarget "SuperpoweredHLSExample" */;
+			buildPhases = (
+				1B3F0B851B15A04100F50B00 /* Sources */,
+				1B3F0B861B15A04100F50B00 /* Frameworks */,
+				1B3F0B871B15A04100F50B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperpoweredHLSExample;
+			productName = SuperpoweredHLSExample;
+			productReference = 1B3F0B891B15A04100F50B00 /* Progresive Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B3F0B811B15A04100F50B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = imect;
+				TargetAttributes = {
+					1B3F0B881B15A04100F50B00 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 696BHPW9KB;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1B3F0B841B15A04100F50B00 /* Build configuration list for PBXProject "SuperpoweredHLSExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B3F0B801B15A04100F50B00;
+			productRefGroup = 1B3F0B8A1B15A04100F50B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B3F0B881B15A04100F50B00 /* SuperpoweredHLSExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B3F0B871B15A04100F50B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21144CD4232145B20062D494 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B3F0B851B15A04100F50B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21144CDD232145CA0062D494 /* ViewController.mm in Sources */,
+				21144CD6232145B20062D494 /* main.m in Sources */,
+				217B986023201F69002297DB /* SuperpoweredIOSAudioIO.mm in Sources */,
+				21144CDC232145CA0062D494 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B3F0BAA1B15A04100F50B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B3F0BAB1B15A04100F50B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B3F0BAD1B15A04100F50B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 696BHPW9KB;
+				INFOPLIST_FILE = SuperpoweredHLSExample/etc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../Superpowered",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imect-test.SuperpoweredProgresiveExample";
+				PRODUCT_NAME = "Progresive Example";
+			};
+			name = Debug;
+		};
+		1B3F0BAE1B15A04100F50B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 696BHPW9KB;
+				INFOPLIST_FILE = SuperpoweredHLSExample/etc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../Superpowered",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imect-test.SuperpoweredProgresiveExample";
+				PRODUCT_NAME = "Progresive Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3F0B841B15A04100F50B00 /* Build configuration list for PBXProject "SuperpoweredHLSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3F0BAA1B15A04100F50B00 /* Debug */,
+				1B3F0BAB1B15A04100F50B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B3F0BAC1B15A04100F50B00 /* Build configuration list for PBXNativeTarget "SuperpoweredHLSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3F0BAD1B15A04100F50B00 /* Debug */,
+				1B3F0BAE1B15A04100F50B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B3F0B811B15A04100F50B00 /* Project object */;
+}
