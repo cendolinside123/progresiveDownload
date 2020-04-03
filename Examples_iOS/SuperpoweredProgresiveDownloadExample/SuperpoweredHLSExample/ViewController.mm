@@ -5,9 +5,11 @@
 #include "SuperpoweredSimple.h"
 
 // some HLS stream url-title pairs
-static const char *urls[2] = {
-    "https://cdn.fastlearner.media/bensound-rumble.mp3", "Apple Advanced Example Stream"
+static const char *urls[4] = {
+    "https://cdn.fastlearner.media/bensound-rumble.mp3", "bensound-rumble.mp3","https://chtbl.com/track/18338/traffic.libsyn.com/secure/acquired/acquired_-_armrev_2.mp3?dest-id=376122","Acquired"
 };
+
+bool rePlay = true;
 
 @implementation ViewController {
     UIView *bufferIndicator;
@@ -94,6 +96,12 @@ static bool audioProcessing(void *clientdata, float **inputBuffers, unsigned int
             //player->open(urls[0]);
             //player->play();
             //player->open(urls[0]);
+            if (player->eofRecently()){
+                player->setPosition(0, true, false);
+                if (rePlay == true) {
+                    [self open:2];
+                }
+            }
             break;
         case Superpowered::PlayerEvent_Opening:
             printf("opening");
@@ -175,7 +183,7 @@ static bool audioProcessing(void *clientdata, float **inputBuffers, unsigned int
 - (void)open:(NSInteger)row {
     currentTime.hidden = playPause.hidden = seekSlider.hidden = YES;
     duration.text = @"Loading...";
-    player->open(urls[0]);
+    player->open(urls[row]);
     //player->setTempFolder([NSTemporaryDirectory() fileSystemRepresentation]);
     //player->openHLS(urls[row]);
 }
