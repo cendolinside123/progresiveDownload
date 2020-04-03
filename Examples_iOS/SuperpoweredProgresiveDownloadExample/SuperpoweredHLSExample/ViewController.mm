@@ -86,11 +86,11 @@ static bool audioProcessing(void *clientdata, float **inputBuffers, unsigned int
     // Check player events.
     switch (player->getLatestEvent()) {
         case Superpowered::PlayerEvent_Opened:
-            player->play();
+            //player->play();
             break;
         case Superpowered::PlayerEvent_OpenFailed:
             NSLog(@"Open error %i: %s", player->getOpenErrorCode(), Superpowered::AdvancedAudioPlayer::statusCodeToString(player->getOpenErrorCode()));
-            player->open(urls[0]);
+            //player->open(urls[0]);
             break;
         case Superpowered::PlayerEvent_None:
             //player->open(urls[0]);
@@ -100,6 +100,7 @@ static bool audioProcessing(void *clientdata, float **inputBuffers, unsigned int
                 player->setPosition(0, true, false);
                 if (rePlay == true) {
                     [self open:2];
+                    rePlay = false;
                 }
             }
             break;
@@ -108,7 +109,7 @@ static bool audioProcessing(void *clientdata, float **inputBuffers, unsigned int
             break;
         case Superpowered::PlayerEvent_ConnectionLost:
             printf("--------connection lost------");
-            player->open(urls[0]);
+            //player->open(urls[0]);
             break;
         default:;
     };
@@ -184,6 +185,7 @@ static bool audioProcessing(void *clientdata, float **inputBuffers, unsigned int
     currentTime.hidden = playPause.hidden = seekSlider.hidden = YES;
     duration.text = @"Loading...";
     player->open(urls[row]);
+    player->play();
     //player->setTempFolder([NSTemporaryDirectory() fileSystemRepresentation]);
     //player->openHLS(urls[row]);
 }
